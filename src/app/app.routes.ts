@@ -17,4 +17,7 @@ export const routes: Routes = [{
 },{
     path: 'apps/:id',
     component: AppsComponent,
+},{
+    path: '**',
+    component: AppsComponent,
 }];
