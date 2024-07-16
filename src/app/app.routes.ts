@@ -13,5 +13,5 @@ export const routes: Routes = [{
     pathMatch: 'full'
 },{
     path: 'apps',
-    component: AppsComponent
+    component: AppsComponent,
 }];
