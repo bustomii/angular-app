@@ -15,7 +15,6 @@ export class ApiService {
   
   appsSetting() {
     let url = "https://develop-14daypilot.astronacci.com/api/apps-settings";
-    console.log(url);
     return this.http.get(url, this.httpOptions);
   }
 }
