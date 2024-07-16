@@ -19,5 +19,5 @@ export const routes: Routes = [{
     component: AppsComponent,
 },{
     path: '**',
-    component: AppsComponent,
+    redirectTo: 'apps',
 }];
